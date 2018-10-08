@@ -1,0 +1,206 @@
+
+
+/* Star seletor maybe not best practice. To re-visit */
+/* You can probably do this layout better with grid. Reduce text in sections to air out a bit. To re-visit*/
+
+* {
+    margin: 0;
+    padding: 0;
+  } 
+
+body, html {
+    height: 100%;
+    font-family: 'Source Serif Pro', serif;
+    margin: 0;
+    color: white;
+}
+
+h2 {
+    color: white;
+    font-size: 2rem;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.hero-image {
+    background-image: url("andrew-preble-199410-unsplash-hero.jpg");
+    height: 73%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} 
+
+.hero-text {
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    font-size: 4.5vw;
+}
+
+@media screen and (max-width: 875px) {
+    .flex ul {
+        display: none;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-image {
+        height: 60%;
+    } 
+
+    .hero-text {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+    }
+
+@media screen and (max-width: 530px) {
+    .hero-image {
+        height: 40%;
+    } 
+    .hero-text {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (min-width: 875px) {
+    #openSlideMenu {
+        display: none;
+    }
+    }
+
+li {
+    list-style: none;
+    padding: 1em;
+}
+
+nav {
+    background-color: hsla(235, 47%, 34%, 0.9);
+}
+
+/* See Traversy Media responsive navbar tutorial -- class and then a to be more specific */
+a {
+    text-decoration: none;
+    font-size: 160%;
+    color: white;
+}
+
+a:hover {
+    color: #f7c094;
+}
+
+.main-nav {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/* this needs work. make the three sections work right */
+.main {
+    display: flex;
+}
+
+.side-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /*background-color: rgba(45, 49, 99, 0.9);*/
+    background-image: linear-gradient(rgba(45, 49, 99),#8c3532);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.side-nav a{
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #ccc;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-nav a:hover{
+    color: #f7c094;
+}
+
+.side-nav .btn-close{
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.container {
+    padding: 1em;
+    height: 10em;
+    color: #c4c8ce;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/*Putting flex 1 in the two below works to make the three blog sections equal width, but I'm not sure why...*/
+
+.blog1, section.blog1 > button {
+    background: #8c3532;
+    flex: 1;
+}
+
+.blog2, section.blog2 > button {
+    background: #3e3e84;
+    flex: 1;
+}
+
+.blogButton {
+    font-family: 'Source Sans Pro', sans-serif;
+    max-height: 30px;
+    max-width: 45%;
+    border: 1px solid white;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1rem;
+    color: white;
+    letter-spacing: 0.05em;
+  }
+
+#openSlideMenu {
+    background-color: transparent;
+    border: transparent;
+    font-size: 2em;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    margin-left: 0.5em;
+    color: white;
+}
+
+#closeSlideMenu {
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin-top: 0.2em;
+}
+
+footer {
+    display: flex;
+    background: rgb(67, 71, 124);
+}
+
+.footer {
+    padding: 1em;
+}
