@@ -1,0 +1,23 @@
+{
+  "name": "maas-university",
+  "version": "1.0.0",
+  "description": "This is a personal practice project. It is a work in progress.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/susanmaas/maas-university.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/susanmaas/maas-university/issues"
+  },
+  "homepage": "https://susanmaas.github.io/maas-university",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
