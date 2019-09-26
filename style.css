@@ -46,7 +46,6 @@ nav {
     background-color: hsla(235, 47%, 34%, 0.9);
 }
 
-/* See Traversy Media responsive navbar tutorial -- class and then a to be more specific */
 a {
     text-decoration: none;
     font-size: 160%;
@@ -202,4 +201,33 @@ footer {
     #openSlideMenu {
         display: none;
     }
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.smallText {
+    font-size: 0.8rem;
+}
+
+.pageLayout {
+    padding: 2rem;
+}
+
+.homeButtonTopMargin {
+    margin-top: 4rem;
+}
+
+.homeButton {
+    background-color: blue;
+    padding: 0.2rem;
+    border-radius: 10%;
+    border: none;
+}
+
+.homeButtonText {
+    color: white;
 }
