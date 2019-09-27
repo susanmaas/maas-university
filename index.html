@@ -5,40 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Maas University</title>
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Source+Serif+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
-<div class="hero-image">
-            <nav class="flex">
-                <!-- Main navbar -->
-                <ul class="main-nav">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Academics</a></li>
-                    <li><a href="#">Faculty</a></li>
-                    <li><a href="#">Students</a></li>
-                </ul>
-                <!-- Hamburger for pop-out navbar-->
-                <button id="openSlideMenu"><i class="fas fa-bars"></i></button>
-            </nav>
-
-             <!-- Pop-out navbar -->
-             <div id="side-menu" class="side-nav">
-             <button id="closeSlideMenu" class="btn-close"><i class="far fa-window-close"></i></button> 
-                 <a href="#">About</a>
-                 <a href="#">Academics</a>
-                 <a href="#">Faculty</a>
-                 <a href="#">Students</a>
-             </div>
-     
-            <div class="hero-text">
-            <h1>Maas University</h1> <!-- H1 looks different (not as good) in Safari. Fix it? -->
-        </header>
+<header class="hero-image">
+    <nav class="flex">
+    <!-- Main navbar -->
+        <ul class="main-nav">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Academics</a></li>
+            <li><a href="#">Faculty</a></li>
+            <li><a href="#">Students</a></li>
+        </ul>
+    <!-- Hamburger for pop-out navbar-->
+        <button id="openSlideMenu"><i class="fas fa-bars"></i></button>
+    </nav>
+    <!-- Pop-out navbar -->
+    <div id="side-menu" class="side-nav">
+        <button id="closeSlideMenu" class="btn-close"><i class="far fa-window-close"></i></button> 
+        <a href="#">About</a>
+        <a href="#">Academics</a>
+        <a href="#">Faculty</a>
+        <a href="#">Students</a>
     </div>
-</div>
-<div class="main">
+    <div class="hero-text">
+        <h1>Maas University</h1>
+    </div>
+</header>
+<main>
     <section class="container blog1">
         <h2>Making a Difference</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -54,7 +51,7 @@
         <p>Sed in felis sit amet est imperdiet laoreet. Mauris at enim a nisl vehicula dictum id cursus sapien.</p>
         <button class="blogButton">Learn More</button>
     </section>
-</div>
+</main>
 <footer>
     <small class="smallText">Copyright Maas University, 2018</small>
     <small><a href="legal.html" class="smallText">Legal</a></small>

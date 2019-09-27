@@ -61,8 +61,7 @@ a:hover {
     flex-wrap: nowrap;
 }
 
-/* this needs work. make the three sections work right */
-.main {
+main {
     display: flex;
 }
 
