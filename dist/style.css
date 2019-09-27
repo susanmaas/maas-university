@@ -108,8 +108,6 @@ main {
     justify-content: space-around;
 }
 
-/*Putting flex 1 in the two below works to make the three blog sections equal width, but I'm not sure why...*/
-
 .blog1, section.blog1 > button {
     background: #8c3532;
     flex: 1;
