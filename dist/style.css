@@ -163,7 +163,7 @@ footer {
         display: none;
     }
 
-    .main {
+    main {
         display: flex;
         flex-direction: column;
     }
