@@ -16,6 +16,11 @@ h2 {
     font-size: 2rem;
 }
 
+.contentTitles {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 200;
+}
+
 p {
     line-height: 1.6;
 }
@@ -216,17 +221,3 @@ footer {
     padding: 2rem;
 }
 
-.homeButtonTopMargin {
-    margin-top: 4rem;
-}
-
-.homeButton {
-    background-color: blue;
-    padding: 0.2rem;
-    border-radius: 10%;
-    border: none;
-}
-
-.homeButtonText {
-    color: white;
-}
