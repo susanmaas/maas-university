@@ -32,9 +32,10 @@ p {
 .hero-text {
     position: absolute;
     top: 80%;
-    left: 35%;
+    left: 53%;
     transform: translate(-50%, -50%);
     font-size: 4.5vw;
+    width: 100%
 }
 
 li {
@@ -191,7 +192,7 @@ footer {
         height: 40%;
     } 
     .hero-text {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
 }
 
