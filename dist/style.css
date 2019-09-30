@@ -16,31 +16,8 @@ h2 {
     font-size: 2rem;
 }
 
-.contentTitles {
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-weight: 200;
-}
-
 p {
     line-height: 1.6;
-}
-
-.hero-image {
-    background-image: url("andrew-preble-199410-unsplash-hero.jpg");
-    height: 73%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-} 
-
-.hero-text {
-    position: absolute;
-    top: 80%;
-    left: 53%;
-    transform: translate(-50%, -50%);
-    font-size: 4.5vw;
-    width: 100%
 }
 
 li {
@@ -60,6 +37,29 @@ a {
 
 a:hover {
     color: #f7c094;
+}
+
+.contentTitles {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 200;
+}
+
+.hero-image {
+    background-image: url("andrew-preble-199410-unsplash-hero.jpg");
+    height: 73%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} 
+
+.hero-text {
+    position: absolute;
+    top: 80%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    font-size: 4.5vw;
+    width: 100%
 }
 
 .main-nav {
@@ -114,17 +114,17 @@ main {
     justify-content: space-around;
 }
 
-.blog1, section.blog1 > button {
+.box1, section.box1 > button {
     background: #8c3532;
     flex: 1;
 }
 
-.blog2, section.blog2 > button {
+.box2, section.box2 > button {
     background: #3e3e84;
     flex: 1;
 }
 
-.blogButton {
+.boxButton {
     font-family: 'Source Sans Pro', sans-serif;
     max-height: 30px;
     max-width: 45%;
@@ -164,7 +164,7 @@ footer {
 
 /* Media Queries */
 
-@media screen and (max-width: 875px) {
+@media (max-width: 875px) {
     .flex ul {
         display: none;
     }
@@ -192,7 +192,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 530px) {
+@media (max-width: 530px) {
     .hero-image {
         height: 40%;
     } 
@@ -201,7 +201,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 875px) {
+@media (min-width: 875px) {
     #openSlideMenu {
         display: none;
     }
